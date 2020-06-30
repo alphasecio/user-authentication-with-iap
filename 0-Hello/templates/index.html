@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <title>Hello</title>
+</head>
+<body>
+  <h2>Hello!</h2>
+
+  <p>
+    X-Goog-Authenticated-User-Email: {{ email }}
+    <br>
+    X-Goog-Authenticated-User-ID:: {{ id }}
+  </p>
+
+  <p>
+    X-Goog-IAP-JWT-Assertion Email: {{ verified_email }}
+    <br>
+    X-Goog-IAP-JWT-Assertion ID: {{ verified_id }}
+    <br>
+    X-Goog-IAP-JWT-Assertion Audience: {{ verified_aud }}
+    <br>
+    X-Goog-IAP-JWT-Assertion Issuer: {{ verified_iss }}
+    <br>
+    X-Goog-IAP-JWT-Assertion Hosted Domain: {{ verified_hd }}
+    <br>
+    X-Goog-IAP-JWT-Assertion Google Claim: {{ verified_goog }}
+  </p>
+
+</body>
+</html>
