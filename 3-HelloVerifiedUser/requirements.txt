@@ -1,4 +1,0 @@
-Flask>=1.0.0
-cryptography
-python-jose[cryptography]
-requests
