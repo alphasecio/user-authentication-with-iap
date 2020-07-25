@@ -1,5 +1,5 @@
-# User Authentication with IAP
-
-**This is not an officially supported Google product**
+## User Authentication with Identity-Aware Proxy
 
 This repository contains the code for User Authentication with Identity-Aware Proxy.
+
+**Disclaimer: This is not officially supported by Google.**
